@@ -101,7 +101,7 @@ let resumeData = {
         "name":"Trivia-Game",
         "description":"mobileapp",
         "imgurl": "images/portfolio/TriviaGAme.png",
-        "url":"Demo",
+        "url0":"Demo",
       },
       {
         "name":"Friend Finder",
@@ -113,13 +113,13 @@ let resumeData = {
         "name":"Clicky Game",
         "description":"mobileapp",  
         "imgurl": "images/portfolio/ClickyGame.png",
-        "url":"https://salty-island-17838.herokuapp.com/"
+        "url2":"Demo"
       },
       {
         "name":"Weather-API",
         "description":"mobileapp",
         "imgurl": "images/portfolio/weather.png",
-        "url":"https://sultan94k.github.io/WeatherAPI/"
+        "url3":"Demo"
       }
     ],
     "testimonials":[
