@@ -2,8 +2,8 @@ let resumeData = {
     "imagebaseurl":"www.linkedin.com/in/sultankarimov",
     "name": "Sultanmurat Karimov",
     "role": "Full Stack Web Developer",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
+    "linkedinId":"https://www.linkedin.com/in/sultankarimov",
+    // "skypeid": "Your skypeid",
     "roleDescription": "I like dabbling in various parts of front-end and back-end development and like to learn about new technologies. Also like to do video editing or simply play games in my free time.",
     "socialLinks":[
         {

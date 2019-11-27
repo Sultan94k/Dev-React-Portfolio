@@ -300,7 +300,7 @@ ul#nav li.current a { color: #F06000; }
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 22px;
-  	border-radius: 3px;
+  	border-radius: 13px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -318,11 +318,11 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: purple;
    display: inline-block;
   	height: 22px;
    line-height: 42px;
-   border-radius: 3px 0 0 3px;
+   border-radius: 13px 0 0 13px;
 }
 
 .photoshop {
