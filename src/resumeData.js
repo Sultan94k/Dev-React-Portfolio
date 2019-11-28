@@ -1,9 +1,9 @@
 let resumeData = {
     "imagebaseurl":"www.linkedin.com/in/sultankarimov",
-    "name": "Sultanmurat Karimov",
+    "name": "Sultanmurat Karimov ",
     "role": "Full Stack Web Developer",
     "linkedinId":"https://www.linkedin.com/in/sultankarimov",
-    // "skypeid": "Your skypeid",
+    "copyright":"© 2019",
     "roleDescription": "I like dabbling in various parts of front-end and back-end development and like to learn about new technologies. Also like to do video editing or simply play games in my free time.",
     "socialLinks":[
         {
@@ -56,14 +56,14 @@ let resumeData = {
         "specialization":"Small Business owner",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2019",
-        "Achievements":"Some Achievements"
+        "Achievements":"Established small business with contacts in the piece goods, steel, coils and household goods industry for purposes of picking up and delivering materials."
       },
       {
         "CompanyName":"KGZ Transport Corp",
         "specialization":"Fleet Manager",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2016",
-        "Achievements":"Provides Deliveries that take goods from one place to another on behalf of a shipper"
+        "Achievements":"Coordinate and manage inbound/outbound freight of 30+ tractors and drivers, managed utilization of drivers and equipment. Ensure customer satisfaction and optimize on-time delivery, through detailed attention and teamwork."
       }
     ],
     "skillsDescription":"",
@@ -99,37 +99,41 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Trivia-Game",
-        "description":"mobileapp",
+        "description":"Trivia-Game randomly created questions to improve brain activity and also gives you funny giphyies for each correct and incorrect answers",
         "imgurl": "images/portfolio/TriviaGAme.png",
         "url0":"Demo",
       },
       {
         "name":"Friend Finder",
-        "description":"mobileapp",
+        "description":"Take a quick survey to find your friend. The user responds to questions with values from 1 Strongly Disagree to 5 Strongly Agree. ",
         "imgurl": "images/portfolio/FriendFinder.png",
         "url1": "Demo"
       },
       {
         "name":"Clicky Game",
-        "description":"mobileapp",  
+        "description":"This is a memory game built with React.js The goal of the game is simple, using your mouse, click each of the twelve Cartoon character cards in whatever order you chose.",  
         "imgurl": "images/portfolio/ClickyGame.png",
         "url2":"Demo"
       },
       {
         "name":"Weather-API",
-        "description":"mobileapp",
+        "description":"Weather-API helps user to check the current weather status and also can search for particular cities for several days.",
         "imgurl": "images/portfolio/weather.png",
         "url3":"Demo"
       }
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Java is to JavaScript what Car is to Carpet.",
+        "name":"Anonymous"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Talent wins games, but teamwork and intelligence win championships.",
+        "name":"Michael Jordan"
+      },
+      {
+        "description":"There are two ways to write error-free programs; only the third one works.",
+        "name":"Alan J. Perlis"
       }
     ]
   }

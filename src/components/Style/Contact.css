@@ -1,0 +1,86 @@
+  /*!Contacts*/
+  .blue {
+    background: #3498db;
+    /* background-image: url("https://pixabay.com/get/55e2d1454b50a814ea9d8d79c328337f1022dfe05455764876267dd7/background-3246124.jpg");
+    background-size: cover; */
+    text-align: center;
+  }
+  
+  .contact {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: 12pt;
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all;
+  }
+  textarea[name="message"]{
+    text-align: left;
+  }
+  
+  .inputlen{
+    width: 400px !important;
+    margin: auto !important;
+    margin-bottom: 8px !important;
+  }
+
+  .contact textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .contact button {
+    display: block;
+    margin: auto;
+    width: 50%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+    color: #3498db;
+    font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all;
+  }
+  .contact button:hover{
+    color: rgba(8, 8, 8, 0.918);
+    background-color: palegoldenrod;
+  }
+  
+  .white-text {
+    color: white;
+  }
+
+
+  .btn1{
+      /* float: right; */
+      margin-left: 14px;
+  }
+
+  .social-links{
+      text-align: center;
+      font-size: xx-large;
+      
+  }
+  .s1{
+      margin: 10px;
+  }
+
+  .contact-body{
+text-align: center;
+  }
+  .contact-wrap{
+width: 100%;
+  }

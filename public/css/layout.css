@@ -1,32 +1,26 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
+/**
+**   TOC:
+**   a. General Styles
+**   b. Header Styles
+**   c. About Section
+**   d. Resume Section
+**  e. Portfolio Section
+**  f. Call To Action Section
+**  g. Testimonials Section
+**   h. Contact Section
+**   i. Footer
 
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+===================================================================== **/
 
-===================================================================== */
 
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
+/*? a. General Styles
+/** ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
 
-/* ------------------------------------------------------------------ */
-/* b. Header Styles
-/* ------------------------------------------------------------------ */
+
+/*! b. Header Styles
+/** ------------------------------------------------------------------ */
 
 header {
    position: relative;
@@ -40,7 +34,7 @@ header {
    overflow: hidden;
 }
 
-/* vertically center banner section */
+/** vertically center banner section */
 header:before {
    content: '';
    display: inline-block;
@@ -82,7 +76,7 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* header social links */
+/** header social links */
 header .social {
    margin: 24px 0;
    padding: 0;
@@ -97,7 +91,7 @@ header .social li {
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
-/* scrolldown link */
+/** scrolldown link */
 header .scrolldown a {
    position: absolute;
    bottom: 30px;
@@ -119,8 +113,8 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
-/* primary navigation
---------------------------------------------------------------------- */
+/** primary navigation
+**--------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
@@ -128,7 +122,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 outline: none;
 }
 
-/* nav-wrap */
+/** nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
@@ -142,14 +136,12 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 .opaque { background-color: #333; }
 
-/* hide toggle button */
+/** hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
    min-height: 48px;
    width: auto;
-
-   /* center align the menu */
    text-align: center;
 }
 ul#nav li {
@@ -159,18 +151,14 @@ ul#nav li {
    display: inline-block;
 }
 
-/* Links */
+/** Links */
 ul#nav li a {
-
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
-
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -179,12 +167,12 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: rgb(243, 118, 79); }
 
 
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
+
+/*! About Section
+/** ------------------------------------------------------------------ */
 
 #about {
    background: #2B2B2B;
@@ -231,9 +219,8 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
-/* ------------------------------------------------------------------ */
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
+/*! Resume Section
+/** ------------------------------------------------------------------ */
 
 #resume {
    background: #fff;
@@ -251,7 +238,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid rgb(148, 17, 180);
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -281,9 +268,9 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
+
+/*?	Skill Bars
+/**----------------------------------------------*/
 
 .bars {
 	width: 95%;
@@ -402,8 +389,16 @@ ul#nav li.current a { color: #F06000; }
    0% {width: 0px;}
    100%{width: 40%;}
 }
+@keyframes reactjs{
+   0% {width: 0px;}
+   100%{width: 40%;}
+}
 
 @-moz-keyframes sequlize{
+   0% {width: 0px;}
+   100%{width: 20%;}
+}
+@keyframes sequlize{
    0% {width: 0px;}
    100%{width: 20%;}
 }
@@ -412,7 +407,10 @@ ul#nav li.current a { color: #F06000; }
    0% {width: 0px;}
    100%{width: 20%;}
 }
-
+@keyframes express{
+   0% {width: 0px;}
+   100%{width: 20%;}
+}
 @-moz-keyframes mongodb{
    0% {width: 0px;}
    100%{width: 70%;}
@@ -501,9 +499,9 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 65%;  }
 }
 
-/*? ------------------------------------------------------------------ */
+
 /* ! Portfolio Section
-/*? ------------------------------------------------------------------ */
+/** ------------------------------------------------------------------ */
 
 #portfolio {
    background: #ebeeee;
@@ -516,7 +514,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 4px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: rgb(243, 118, 79);
 }
 
 /* Portfolio Content */
@@ -537,7 +535,7 @@ ul#nav li.current a { color: #F06000; }
    cursor: pointer;
 }
 
-/* overlay */
+/** overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
@@ -594,7 +592,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 0;
 }
 
-/* on hover */
+/** on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
@@ -606,7 +604,7 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=100);
 }
 
-/* popup modal */
+/** popup modal */
 .popup-modal {
 	max-width: 550px;
 	background: #fff;
@@ -651,10 +649,10 @@ ul#nav li.current a { color: #F06000; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
-/* fadein/fadeout effect for modal popup
-/* ------------------------------------------------------------------ */
+/*? fadein/fadeout effect for modal popup
+/** ------------------------------------------------------------------ */
 
-/* content at start */
+/** content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
    opacity: 0;
    -webkit-transition: all 200ms ease-in-out;
@@ -663,18 +661,17 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 200ms ease-in-out;
    transition: all 200ms ease-in-out;
 }
-/* content fadein */
+/** content fadein */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
    opacity: 1;
 }
-/* content fadeout */
+/** content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
 
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
+/*! f. Call To Action Section
+/** ------------------------------------------------------------------ */
 
 #call-to-action {
    background: #212121;
@@ -713,12 +710,7 @@ ul#nav li.current a { color: #F06000; }
    color: #636363;
    font-size: 17px;
 }
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
+
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -729,9 +721,9 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
+
+/*! Testimonials
+/** ------------------------------------------------------------------ */
 
 #testimonials {
    background: #1F1F1F url(../images/portfolio/create-3026190.jpg) no-repeat center center;
@@ -739,7 +731,7 @@ call-to-action .button {
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
 
-   position: relative;
+    position: relative;
    min-height: 200px;
    width: 100%;
    overflow: hidden;
@@ -749,10 +741,10 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18pt/24pt 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: rgb(255, 255, 255);
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
@@ -764,10 +756,10 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: whitesmoke;
 }
 
-/*	Blockquotes */
+/**	Blockquotes */
 #testimonials blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
@@ -778,10 +770,12 @@ call-to-action .button {
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
-   font-size: 24px;
+   font-size: 20pt;
    line-height: 48px;
-   color: #fff
+   color: #fff;
+  text-align: center;
 }
+
 #testimonials blockquote cite {
    display: block;
    font-size: 12px;
@@ -793,10 +787,10 @@ call-to-action .button {
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
-/* Flex Slider
-/* ------------------------------------------------------------------ */
+/*? Flex Slider
+/** ------------------------------------------------------------------ */
 
-/* Reset */
+/** Reset */
 .flexslider a:active,
 .flexslider a:focus  { outline: none; }
 .slides,
@@ -804,7 +798,7 @@ call-to-action .button {
 .flex-direction-nav { margin: 0; padding: 0; list-style: none; }
 .slides li { margin: 0; padding: 0;}
 
-/* Necessary Styles */
+/** Necessary Styles */
 .flexslider {
    position: relative;
    zoom: 1;
@@ -814,12 +808,16 @@ call-to-action .button {
 .flexslider .slides { zoom: 1; }
 .flexslider .slides > li { position: relative; }
 
-/* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-/* Suggested container for slide animation setups. Can replace this with your own */
+/** Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li { 
+   display: none; 
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden; 
+}
+/** Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
-/* Clearfix for .slides */
+/** Clearfix for .slides */
 .slides:before,
 .slides:after {
    content: " ";
@@ -829,19 +827,18 @@ call-to-action .button {
    clear: both;
 }
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
+/** No JavaScript Fallback */
+/** If you are not using another script, such as Modernizr, make sure you
+ ** include js that eliminates this class on page load */
 .no-js .slides > li:first-child { display: block; }
 
-/* Slider Styles */
+/** Slider Styles */
 .slides { zoom: 1; }
 .slides > li {
-   /*margin-right: 5px; */
    overflow: hidden;
 }
 
-/* Control Nav */
+/** Control Nav */
 .flex-control-nav {
     width: 100%;
     position: absolute;
@@ -918,20 +915,18 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
+   font: italic 16pt/36pt 'opensans-light', sans-serif;
 }
 #contact .header-col { padding-top: 6px; }
 
 
-/* contact form */
+/** Contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
    width: 26%;
 }
 #contact input,
@@ -983,7 +978,6 @@ call-to-action .button {
 }
 #message-warning { color: #D72828; }
 #message-success { color: #11ABB0; }
-
 #message-warning i,
 #message-success i {
    margin-right: 10px;
@@ -996,42 +990,23 @@ call-to-action .button {
 }
 
 
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
-
-/* ------------------------------------------------------------------ */
-/* i. Footer
-/* ------------------------------------------------------------------ */
+/*! Footer
+/** ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
+   padding-top: 20px;
+   margin-bottom: 12px;
+   color: #a7a5a5;
    font-size: 14px;
    text-align: center;
    position: relative;
+   border-top: solid rgb(95, 95, 95) 2px;
 }
 
 footer a, footer a:visited { color: #525252; }
 footer a:hover, footer a:focus { color: #fff; }
 
-/* copyright */
+copyright
 footer .copyright {
     margin: 0;
     padding: 0;
@@ -1071,7 +1046,7 @@ footer .social-links li {
 
 footer .social-links li:first-child { margin-left: 0; }
 
-/* Go To Top Button */
+/** Go To Top Button */
 #go-top {
 	position: absolute;
 	top: -24px;
@@ -1082,8 +1057,8 @@ footer .social-links li:first-child { margin-left: 0; }
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	background-color: #525252;
 
 	-webkit-transition: all 0.2s ease-in-out;
