@@ -314,9 +314,9 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
 
 .photoshop {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-     -webkit-animation: photoshop 2s ease;
-     animation: photoshop 2s ease;
+  	-moz-animation: photoshop 10s ease;
+     -webkit-animation: photoshop 10s ease;
+     animation: photoshop 10s ease;
 }
 .illustrator {
   	width: 55%;
@@ -331,58 +331,58 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
      animation: wordpress 2s ease;
 }
 .html{
-	width: 90%;
-  	-moz-animation: html 3s ease;
-     -webkit-animation: html 3s ease;
-     animation: html 3s ease;
+	width: 88%;
+  	-moz-animation: html 5s ease;
+     -webkit-animation: html 5s ease;
+     animation: html 5s ease;
 }
 .css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-     -webkit-animation: css 2s ease;
-     animation: css 2s ease;
+  	width: 90.5%;
+  	-moz-animation: css 5s ease;
+     -webkit-animation: css 5s ease;
+     animation: css 5s ease;
 }
 .reactjs{
    width: 40%;
-   -moz-animation: reactjs 2s ease;
-   -webkit-animation: reactjs 2s ease;
-   animation: reactjs 2s ease;
+   -moz-animation: reactjs 5s ease;
+   -webkit-animation: reactjs 5s ease;
+   animation: reactjs 5s ease;
 }
 .javascript {
   	width: 80%;
-  	-moz-animation: javascript 2s ease;
-     -webkit-animation: javascript 2s ease;
-     animation: javascript 2s ease;
+  	-moz-animation: javascript 5s ease;
+     -webkit-animation: javascript 5s ease;
+     animation: javascript 5s ease;
 }
 .mongodb{
    width: 70%;
-   -moz-animation: mongodb 2s ease;
-   -webkit-animation: mongodb 2s ease;
-   animation: mongodb 2s ease;
+   -moz-animation: mongodb 5s ease;
+   -webkit-animation: mongodb 5s ease;
+   animation: mongodb 5s ease;
 }
 .mysql{
    width: 50%;
-   -moz-animation: mysql 2s ease;
-   -webkit-animation: mysql 2s ease;
-   animation: mysql 2s ease;
+   -moz-animation: mysql 5s ease;
+   -webkit-animation: mysql 5s ease;
+   animation: mysql 5s ease;
 }
 .express{
-   width: 40%;
-   -moz-animation: express 2s ease;
-   -webkit-animation: express 2s ease;
-   animation: express 2s ease;
+   width: 20%;
+   -moz-animation: express 5s ease;
+   -webkit-animation: express 5s ease;
+   animation: express 5s ease;
 }
 .sequlize{
    width: 20%;
-   -moz-animation: sequlize 2s ease;
-   -webkit-animation: sequlize 2s ease;
-   animation: sequlize 2s ease;
+   -moz-animation: sequlize 5s ease;
+   -webkit-animation: sequlize 5s ease;
+   animation: sequlize 5s ease;
 }
 .jquery {
   	width: 65%;
-  	-moz-animation: jquery 2s ease;
-     -webkit-animation: jquery 2s ease;
-     animation: jquery 2s ease;
+  	-moz-animation: jquery 5s ease;
+     -webkit-animation: jquery 5s ease;
+     animation: jquery 5s ease;
 }
 
 @-moz-keyframes reactjs{
@@ -435,11 +435,11 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 90.5%;  }
 }
 @-moz-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 88%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
@@ -488,11 +488,11 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 90.5%;  }
 }
 @-webkit-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 88%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
