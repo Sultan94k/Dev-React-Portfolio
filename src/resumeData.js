@@ -78,7 +78,7 @@ let resumeData = {
         "skillname": "JavaScript"
       },
       {
-        "skillname": "Reactjs"
+        "skillname": "ReactJs"
       },
       {
         "skillname":"Sequlize"
@@ -93,7 +93,16 @@ let resumeData = {
         "skillname":"MySql"
       },
       {
-        "skillname":"jQuery"
+        "skillname":"Bootstrap"
+      },
+      {
+        "skillname":"NodeJs"
+      },
+      {
+        "skillname":"Command Line"
+      },
+      {
+        "skillname":"Git"
       }
     ],
     "portfolio":[

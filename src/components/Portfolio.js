@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./Style/Portfolio.css";
+// import "./Style/Portfolio.css";
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;

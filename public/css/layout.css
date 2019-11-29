@@ -385,6 +385,34 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
      animation: jquery 5s ease;
 }
 
+.bootstrap {
+   width: 80%;
+   -moz-animation: jquery 5s ease;
+   -webkit-animation: jquery 5s ease;
+   animation: jquery 5s ease;
+}
+
+.nodejs {
+   width: 60%;
+   -moz-animation: jquery 5s ease;
+   -webkit-animation: jquery 5s ease;
+   animation: jquery 5s ease;
+}
+
+.command  {
+   width: 85%;
+   -moz-animation: jquery 5s ease;
+   -webkit-animation: jquery 5s ease;
+   animation: jquery 5s ease;
+}
+
+.git {
+   width: 90%;
+   -moz-animation: jquery 5s ease;
+   -webkit-animation: jquery 5s ease;
+   animation: jquery 5s ease;
+}
+
 @-moz-keyframes reactjs{
    0% {width: 0px;}
    100%{width: 40%;}
@@ -412,6 +440,10 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
    100%{width: 20%;}
 }
 @-moz-keyframes mongodb{
+   0% {width: 0px;}
+   100%{width: 70%;}
+}
+@keyframes mongodb{
    0% {width: 0px;}
    100%{width: 70%;}
 }
@@ -445,6 +477,30 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
+@-moz-keyframes bootstrap {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+
+ @-moz-keyframes nodejs {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @keyframes nodejs{
+   0%   { width: 0px;  }
+   100% { width: 60%;  } 
+ }
+
+ @-moz-keyframes command {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+
+ @-moz-keyframes git {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+
 @-webkit-keyframes reactjs{
    0% {width: 0px;}
    100%{width: 40%;}
@@ -499,6 +555,29 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
   100% { width: 65%;  }
 }
 
+@-webkit-keyframes bootstrap {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @keyframes bootstrap{
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+
+ @-webkit-keyframes nodejs {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+
+ @-webkit-keyframes command {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+
+ @-webkit-keyframes git {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
 
 /* ! Portfolio Section
 /** ------------------------------------------------------------------ */
@@ -1030,7 +1109,7 @@ footer .copyright  li:first-child:before {
     display: none;
 }
 
-/* social links */
+/** social links */
 footer .social-links {
    margin: 18px 0 30px 0;
    padding: 0;
