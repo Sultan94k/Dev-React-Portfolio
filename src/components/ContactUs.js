@@ -14,7 +14,7 @@ export default class ContactUs extends Component {
         <div className="actionss">
           <a className="btn d-none d-md-inline-block" href="mailto:sultanmuratkarimov@gmail.com" target="_blank">
             <i className="fa fa-paper-plane" aria-hidden="true"></i> Hire Me </a>
-          <a className="btn1" href="" target="_blank">
+          <a className="btn1" href="https://drive.google.com/open?id=1VK7diiWPsV78Q8Jx_3I0LHZaxx5A3qfX" target="_blank">
              <i className="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
             </div>
        
