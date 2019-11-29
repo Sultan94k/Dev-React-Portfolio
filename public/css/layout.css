@@ -10,7 +10,7 @@
 **   h. Contact Section
 **   i. Footer
 
-===================================================================== **/
+
 
 
 /*? a. General Styles
@@ -590,7 +590,7 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
    color: rgb(243, 118, 79);
 }
 
-/* Portfolio Content */
+/** Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -948,9 +948,9 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
     cursor: default;
 }
 
-/* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
+
+/*? h. Contact Section
+/** ------------------------------------------------------------------ */
 
 #contact {
    background: #191919;
