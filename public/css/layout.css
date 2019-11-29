@@ -457,10 +457,7 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
+
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 50%;  }
@@ -534,10 +531,7 @@ ul#nav li.current a { color: rgb(243, 118, 79); }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
+
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 50%;  }
